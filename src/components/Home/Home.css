@@ -1,0 +1,94 @@
+.homeSection {
+  /* box-sizing: border-box; */
+  /* overflow-x: hidden;
+  overflow-y: hidden; */
+  /* min-height: 100%; */
+  display: flex;
+  height: 100%;
+}
+
+.leftSection {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  background-color: #00b8f1;
+  color: white;
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+
+.middleSection {
+  background-color: white;
+  flex-grow: 2;
+  padding: 1.8rem;
+}
+
+.rightSection {
+  background-color: white;
+  /* flex-grow: 1; */
+  margin: 1.4rem;
+  padding: 1rem;
+}
+
+.rightHeading {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.allData {
+  height: 30rem;
+  overflow: auto;
+}
+
+.eventContainer {
+  height: 4rem;
+  width: 20rem;
+  background-color: #d9d9d9;
+  padding: 1rem;
+  margin: 1rem;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.first {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  /* padding: 1rem; */
+  justify-content: space-between;
+}
+
+.eventContainer:active {
+  background-color: #7f7f7f;
+}
+
+.second {
+  margin: 1rem;
+  padding: 1rem;
+  background-color: #d9d9d9;
+}
+
+.middleContainer {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.4rem;
+}
+
+.bio {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.imgContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.img {
+  /* width: 30rem; */
+  height: 30rem;
+}

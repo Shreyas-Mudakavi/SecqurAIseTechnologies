@@ -1,0 +1,46 @@
+.navabrContainer {
+  padding: 0.5rem;
+  background-color: #001c7b;
+  display: flex;
+  align-items: center;
+  height: 3rem;
+  justify-content: space-between;
+}
+
+.rightNavbar {
+  display: flex;
+  align-items: baseline;
+}
+
+.searchBtn {
+  color: white;
+  margin-right: 8rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.countSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navabrTitle {
+  font-size: 1.7rem;
+  color: #008483;
+}
+
+.maleCt {
+  padding: 1rem;
+  font-size: 1.2rem;
+  margin-right: 0.5rem;
+  height: 0.5rem;
+  background-color: yellow;
+}
+
+.femaleCt {
+  font-size: 1.2rem;
+  padding: 1rem;
+  height: 0.5rem;
+  background-color: green;
+}
